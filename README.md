@@ -1,0 +1,1 @@
+This repository demonstrates a common error in HTML where JavaScript attempts to manipulate the DOM before it is fully loaded.  The bug.html file shows the incorrect implementation, leading to the div not being hidden. The bugSolution.html file provides the corrected code that uses the DOMContentLoaded event to ensure the DOM is ready before making changes.
